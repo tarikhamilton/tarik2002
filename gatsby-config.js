@@ -1,5 +1,5 @@
 module.exports = {
-  assetPrefix: `/anime3/tarik2002`,
+  assetPrefix: `../../`,
   pathPrefix: `/anime3/tarik2002`,
   plugins: [
     `gatsby-plugin-sharp`,
