@@ -1,0 +1,26 @@
+html,
+body {
+  @apply text-base font-serif text-yellow bg-black;
+  margin: 8px;
+}
+
+h1 {
+  @apply font-bold;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h3 {
+  @apply font-bold;
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: underline;
+  color: red;
+}
