@@ -21,10 +21,13 @@ p {
 }
 
 a {
+  display: inline-block;
   text-decoration: underline;
   color: red;
+  line-height: 1;
 }
 
 a + a {
   display: block;
+  line-height: 1.25;
 }
