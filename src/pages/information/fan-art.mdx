@@ -1,24 +1,21 @@
 ---
+title: Fan Art
 path: /fanart.html
 ---
 
-<div className="text-center">
+import SAVE0000 from '../../images/SAVE0000.jpeg'
+import SAVE0001 from '../../images/SAVE0001.jpeg'
+import SAVE0002 from '../../images/SAVE0002.jpeg'
+import SAVE0003 from '../../images/SAVE0003.jpeg'
 
-<h1>Fan Art</h1>
+export default ({ children }) => <div className="text-center">{children}</div>
 
-<p>
-  Instructions are simple. Select the pic to see it. You could save them by
-  right mouse clicking the pic and "Save As" or "Save Target As".
-</p>
+Instructions are simple. Select the pic to see it. You could save them by right mouse clicking the pic and "Save As" or "Save Target As".
 
-<p>By:Tarik Hamilton age:10 made in: Janurary 2002 SSJ3 Gokou</p>
+By:Tarik Hamilton age:10 made in: Janurary 2002 <a href={SAVE0002}>SSJ3 Gokou</a>
 
-<p>By:Tarik Hamilton age:10 made in 2001 SSJ2 Majin Vegita</p>
+By:Tarik Hamilton age:10 made in 2001 <a href={SAVE0001}>SSJ2 Majin Vegita</a>
 
-<p>
-  By:Tarik Hamilton age:10 made in: Feburary 2002 SSJ3 Crontee (Made up
-  character)
-</p>
+By:Tarik Hamilton age:10 made in: Feburary 2002 <a href={SAVE0000}>SSJ3 Crontee</a> (Made up character)
 
-<p>By:Tarik Hamilton age:10 made in: Feburary 2002 Crontee (Made up character)</p>
-</div>
+By:Tarik Hamilton age:10 made in: Feburary 2002 <a href={SAVE0003}>Crontee</a> (Made up character)

@@ -1,54 +1,22 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Tarik's Dragonball, Z, and GT Legend
 
-## 🚀 Quick start
+This is a port of my first website I ever made, back before I wrote my first `<div>` tag: 
+[https://www.angelfire.com/anime3/tarik2002/](https://www.angelfire.com/anime3/tarik2002/)
 
-1.  **Create a Gatsby site.**
+The entire contents of the site have been manually translated to Markdown and turned into a [Gatsby.js](https://www.gatsbyjs.com/) project.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## What Works
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+I was able to get all text and images for each page, and even preserved the routing and paths, which all ended in `.html` and started at the root, despite hierarchical content.
 
-2.  **Start developing.**
+What didn't make it were the Angelfire banner ads, Java Chat applet, polls, and the visitor counter.
 
-    Navigate into your new site’s directory and start it up.
+## History
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+It seems like the first few months of 2002 I started working on a Dragon Ball Z site to catalog my art, cool images, and to dispense Dragon Ball knowledge. I remember a lot of awesome table-based layout Dragon Ball Z sites that were largely just lists of information based on lore. That is probably where some of the content came from, as well as the inspiration.
 
-3.  **Open the code and start customizing!**
+My best friend in the About Me section introduced me to the internet, DBZ, lifting, and so much more. He passed away on July 18, 2020. You can see in the last update, I abandoned the project to work on a site together with him on Freewebz, which *is* dead. This is one of the few ancient artifacts from my time on Earth with him. I have no idea why Angelfire is still up, but **thank you!**
 
-    Your site is now running at http://localhost:8000!
+## Development
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+It's a Node application, so just clone, install, and run `yarn start`.
