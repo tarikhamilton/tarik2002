@@ -8,6 +8,12 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [],
+        extensions: [`.md`, `.mdx`],
+      },
+    },
   ],
-};
+}
