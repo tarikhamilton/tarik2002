@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/anime3/tarik2002`,
   plugins: [
     `gatsby-plugin-sharp`,
     'gatsby-plugin-postcss',
