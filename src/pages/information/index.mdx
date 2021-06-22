@@ -4,7 +4,8 @@ path: /infoscreen.html
 date: 2001-01-01
 ---
 
-<div className="text-center">
+export default ({ children }) => <div className="text-center">{children}</div>
+
 <h1>Information</h1>
 
 <p>Please select a information link:</p>
@@ -23,6 +24,4 @@ date: 2001-01-01
 </div>
 <div className="block leading-tight">
   <a href="/sagasummaries.html">Saga Summaries</a>
-</div>
-
 </div>
