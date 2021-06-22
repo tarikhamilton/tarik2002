@@ -1,5 +1,6 @@
 module.exports = {
-  assetPrefix: `../../`,
+  assetPrefix:
+    process.env.NODE_ENV !== 'development' ? process.env.GATSBY_ASSETPREFIX : '',
   pathPrefix: `/anime3/tarik2002`,
   plugins: [
     `gatsby-plugin-sharp`,
