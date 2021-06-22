@@ -5,7 +5,10 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMdx(sort: { order: DESC, fields: [frontmatter___title] }, limit: 1000) {
+      allMdx(
+        sort: { order: DESC, fields: [frontmatter___title] }
+        limit: 1000
+      ) {
         edges {
           node {
             frontmatter {
@@ -23,11 +26,11 @@ exports.createPages = ({ actions, graphql }) => {
 
     return result.data.allMdx.edges.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.path,
+        path: '/anime3/tarik2002' + node.frontmatter.path,
         component,
         context: {
           // additional data can be passed via context
-          slug: node.frontmatter.path,
+          slug: node.frontmatter.path || '/',
         },
       })
     })
