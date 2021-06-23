@@ -1,0 +1,1 @@
+export const ANGELFIRE_ROOT_PATH = '/anime3/tarik2002'
